@@ -1,0 +1,164 @@
+.interactive-code-container {
+  margin: 1.5rem 0;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+}
+
+.code-caption {
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  font-size: 0.8rem;
+  color: #586069;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #e1e4e8;
+  font-size: 0.8rem;
+  color: #586069;
+}
+
+.code-language {
+  font-weight: 600;
+}
+
+.code-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.code-action-btn {
+  background: #eff3f6;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.8rem;
+  color: #24292e;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.code-action-btn:hover {
+  background: #e3e8eb;
+}
+
+.code-block {
+  margin: 0;
+  padding: 1rem;
+  overflow: auto;
+  background-color: white;
+  color: #24292e;
+  tab-size: 4;
+}
+
+.code-line {
+  display: flex;
+}
+
+.line-number {
+  display: inline-block;
+  width: 2rem;
+  user-select: none;
+  opacity: 0.3;
+  text-align: right;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 1px solid #e1e4e8;
+}
+
+.line-content {
+  flex: 1;
+  white-space: pre;
+}
+
+.code-editor {
+  width: 100%;
+  min-height: 150px;
+  padding: 1rem;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  border: none;
+  background-color: white;
+  resize: vertical;
+  tab-size: 4;
+  margin: 0;
+}
+
+/* Syntax highlighting colors */
+.code-block .token.comment,
+.code-block .token.prolog,
+.code-block .token.doctype,
+.code-block .token.cdata {
+  color: #6a737d;
+}
+
+.code-block .token.punctuation {
+  color: #5e6687;
+}
+
+.code-block .token.namespace {
+  opacity: 0.7;
+}
+
+.code-block .token.property,
+.code-block .token.tag,
+.code-block .token.boolean,
+.code-block .token.number,
+.code-block .token.constant,
+.code-block .token.symbol,
+.code-block .token.deleted {
+  color: #338187;
+}
+
+.code-block .token.selector,
+.code-block .token.attr-name,
+.code-block .token.string,
+.code-block .token.char,
+.code-block .token.builtin,
+.code-block .token.inserted {
+  color: #33c481;
+}
+
+.code-block .token.operator,
+.code-block .token.entity,
+.code-block .token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #d73a49;
+}
+
+.code-block .token.atrule,
+.code-block .token.attr-value,
+.code-block .token.keyword {
+  color: #d73a49;
+}
+
+.code-block .token.function {
+  color: #6f42c1;
+}
+
+.code-block .token.regex,
+.code-block .token.important,
+.code-block .token.variable {
+  color: #e36234;
+}
+
+.code-block .token.important,
+.code-block .token.bold {
+  font-weight: bold;
+}
+
+.code-block .token.italic {
+  font-style: italic;
+}

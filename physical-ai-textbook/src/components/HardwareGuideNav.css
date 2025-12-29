@@ -1,0 +1,299 @@
+.hardware-guide-nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav-header h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.nav-header p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.search-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.guide-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.guide-category {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.category-header {
+  background-color: #f8f9fa;
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.category-header:hover {
+  background-color: #e9ecef;
+}
+
+.category-header h3 {
+  margin: 0;
+  color: #34495e;
+  font-size: 1.2rem;
+}
+
+.expand-icon {
+  transition: transform 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.expand-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.category-guides {
+  padding: 10px 0;
+}
+
+.guide-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.guide-item:hover {
+  background-color: #f8f9fa;
+}
+
+.guide-item.active {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+}
+
+.guide-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.guide-item h4 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.guide-description {
+  color: #555;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+.guide-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.guide-meta span {
+  background-color: #ecf0f1;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.guide-actions {
+  display: flex;
+  align-items: center;
+}
+
+.view-guide-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.view-guide-btn:hover {
+  background-color: #2980b9;
+}
+
+.recommendation-section {
+  margin: 40px 0;
+  padding: 25px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.recommendation-section h3 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+.assessment-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.assessment-btn:hover {
+  background-color: #229954;
+}
+
+.quick-links {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.quick-links h3 {
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li {
+  margin-bottom: 8px;
+}
+
+.quick-links a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.quick-links a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hardware-guide-nav {
+    padding: 15px;
+  }
+
+  .guide-item {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .guide-content {
+    padding-right: 0;
+  }
+
+  .guide-meta {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .guide-meta span {
+    align-self: flex-start;
+  }
+
+  .recommendation-section {
+    padding: 20px;
+  }
+
+  .assessment-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .guide-item {
+    padding: 15px;
+  }
+
+  .guide-content h4 {
+    font-size: 1rem;
+  }
+
+  .category-header {
+    padding: 12px 15px;
+  }
+
+  .category-header h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .expand-icon,
+  .view-guide-btn,
+  .assessment-btn {
+    transition: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .guide-item {
+    border-bottom: 2px solid #000;
+  }
+
+  .category-header {
+    border-bottom: 2px solid #000;
+  }
+
+  .view-guide-btn,
+  .assessment-btn {
+    border: 2px solid #000;
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "technicalTerms": {
+    "physicalAI": {
+      "en": "Physical AI",
+      "ur": "فزیکل اے آئی",
+      "definition": "A branch of artificial intelligence that focuses on AI systems that exist and operate in the physical world, as opposed to traditional digital AI that operates in virtual environments."
+    },
+    "humanoidRobotics": {
+      "en": "Humanoid Robotics",
+      "ur": "ہیومنوائڈ روبوٹکس",
+      "definition": "A field of robotics that focuses on creating robots with human-like form and capabilities."
+    },
+    "ros2": {
+      "en": "ROS 2",
+      "ur": "ROS 2",
+      "definition": "Robot Operating System 2 - middleware for robotics development (acronym kept in English)"
+    },
+    "gazebo": {
+      "en": "Gazebo",
+      "ur": "گزیبو",
+      "definition": "A 3D simulation environment for robotics development"
+    },
+    "nvidiaIsaac": {
+      "en": "NVIDIA Isaac",
+      "ur": "این ویڈیا اسیک",
+      "definition": "NVIDIA's robotics platform for AI-powered robots"
+    },
+    "vla": {
+      "en": "Vision-Language-Action (VLA)",
+      "ur": "وژن-لینگویج-ایکشن (VLA)",
+      "definition": "Models that combine visual perception, language understanding, and action execution in robotics"
+    },
+    "embodiedAI": {
+      "en": "Embodied AI",
+      "ur": "ایمبدیڈ اے آئی",
+      "definition": "AI systems that have a physical form and interact with the physical world"
+    },
+    "robotOperatingSystem": {
+      "en": "Robot Operating System",
+      "ur": "روبوٹ آپریٹنگ سسٹم",
+      "definition": "Middleware that provides services for robotics software development"
+    },
+    "simulationEnvironment": {
+      "en": "Simulation Environment",
+      "ur": "سیمولیشن ماحول",
+      "definition": "A virtual environment used to test and develop robotic systems"
+    },
+    "computerVision": {
+      "en": "Computer Vision",
+      "ur": "کمپیوٹر وژن",
+      "definition": "Field of AI that enables computers to interpret and understand visual information"
+    },
+    "machineLearning": {
+      "en": "Machine Learning",
+      "ur": "مشین لرننگ",
+      "definition": "Subset of AI that enables systems to learn and improve from experience"
+    },
+    "deepLearning": {
+      "en": "Deep Learning",
+      "ur": "ڈیپ لرننگ",
+      "definition": "Subset of machine learning using neural networks with multiple layers"
+    },
+    "neuralNetwork": {
+      "en": "Neural Network",
+      "ur": "نیورل نیٹ ورک",
+      "definition": "Computational model inspired by biological neural networks"
+    },
+    "reinforcementLearning": {
+      "en": "Reinforcement Learning",
+      "ur": "رینفورسمنٹ لرننگ",
+      "definition": "Type of machine learning focused on how agents should take actions in an environment"
+    },
+    "motionPlanning": {
+      "en": "Motion Planning",
+      "ur": "موشن پلاننگ",
+      "definition": "Computational problem of finding a sequence of valid configurations to move an object"
+    },
+    "pathPlanning": {
+      "en": "Path Planning",
+      "ur": "پاتھ پلاننگ",
+      "definition": "Computational process of finding a collision-free path from start to goal"
+    },
+    "controlTheory": {
+      "en": "Control Theory",
+      "ur": "کنٹرول تھیوری",
+      "definition": "Engineering field that deals with the behavior of dynamical systems"
+    },
+    "feedbackControl": {
+      "en": "Feedback Control",
+      "ur": "فیڈ بیک کنٹرول",
+      "definition": "Control system that uses feedback to adjust its behavior"
+    },
+    "kinematics": {
+      "en": "Kinematics",
+      "ur": "کنیمیٹکس",
+      "definition": "Branch of mechanics that deals with motion without considering forces"
+    },
+    "dynamics": {
+      "en": "Dynamics",
+      "ur": "ڈائینامکس",
+      "definition": "Branch of mechanics concerned with forces and their relation to motion"
+    },
+    "inverseKinematics": {
+      "en": "Inverse Kinematics",
+      "ur": "ان ورس کنیمیٹکس",
+      "definition": "Mathematical process to determine joint parameters for a desired end-effector position"
+    },
+    "forwardKinematics": {
+      "en": "Forward Kinematics",
+      "ur": "فارورڈ کنیمیٹکس",
+      "definition": "Mathematical process to determine end-effector position from joint parameters"
+    },
+    "endEffector": {
+      "en": "End Effector",
+      "ur": "اینڈ ایفیکٹر",
+      "definition": "Device at the end of a robotic arm designed to interact with the environment"
+    },
+    "degreesOfFreedom": {
+      "en": "Degrees of Freedom",
+      "ur": "ڈگریز آف فریڈم",
+      "definition": "Number of independent movements a mechanical system can make"
+    },
+    "actuator": {
+      "en": "Actuator",
+      "ur": "ایکچوایٹر",
+      "definition": "Component that moves or controls a mechanism or system"
+    },
+    "sensor": {
+      "en": "Sensor",
+      "ur": "سینسر",
+      "definition": "Device that detects or measures a physical property and records, indicates, or otherwise responds to it"
+    },
+    "lidar": {
+      "en": "LIDAR",
+      "ur": "لیڈار",
+      "definition": "Light Detection and Ranging - remote sensing method using light in the form of a pulsed laser"
+    },
+    "imu": {
+      "en": "IMU",
+      "ur": "آئی ایم یو",
+      "definition": "Inertial Measurement Unit - device that measures and reports velocity, orientation, and gravitational forces"
+    },
+    "computerVision": {
+      "en": "Computer Vision",
+      "ur": "کمپیوٹر وژن",
+      "definition": "Field of AI that enables computers to interpret and understand visual information"
+    },
+    "pointCloud": {
+      "en": "Point Cloud",
+      "ur": "پوائنٹ کلاؤڈ",
+      "definition": "Set of data points in space, generally used to represent 3D shapes"
+    },
+    "pcl": {
+      "en": "PCL",
+      "ur": "پی سی ایل",
+      "definition": "Point Cloud Library - open source library for 2D/3D image and point cloud processing"
+    },
+    "opencv": {
+      "en": "OpenCV",
+      "ur": "پن سی وی",
+      "definition": "Open Source Computer Vision Library"
+    },
+    "tensorflow": {
+      "en": "TensorFlow",
+      "ur": "ٹینسر فلو",
+      "definition": "Open source platform for machine learning"
+    },
+    "pytorch": {
+      "en": "PyTorch",
+      "ur": "پائی ٹورچ",
+      "definition": "Open source machine learning library based on the Torch library"
+    },
+    "gpt": {
+      "en": "GPT",
+      "ur": "جی پی ٹی",
+      "definition": "Generative Pre-trained Transformer - type of AI model for natural language processing"
+    },
+    "transformer": {
+      "en": "Transformer",
+      "ur": "ٹرانسفارمر",
+      "definition": "Deep learning model that uses attention mechanisms to process sequential data"
+    },
+    "attentionMechanism": {
+      "en": "Attention Mechanism",
+      "ur": "ایٹینشن مکانزم",
+      "definition": "Deep learning technique that helps models focus on relevant parts of input"
+    },
+    "reality": {
+      "en": "Virtual Reality",
+      "ur": "ورچوئل ریلٹی",
+      "definition": "Computer-generated simulation of a 3D environment"
+    },
+    "ar": {
+      "en": "Augmented Reality",
+      "ur": "آگمینٹڈ ریلٹی",
+      "definition": "Technology that superimposes computer-generated content onto the real world"
+    },
+    "hri": {
+      "en": "Human-Robot Interaction",
+      "ur": "ہیومن-روبوٹ انٹرایکشن",
+      "definition": "Field studying interaction between humans and robots"
+    },
+    "embodiedCognition": {
+      "en": "Embodied Cognition",
+      "ur": "ایمبدیڈ کاگنیشن",
+      "definition": "Theory that cognitive processes are influenced by the body's interactions with the environment"
+    },
+    "affordance": {
+      "en": "Affordance",
+      "ur": "ایفارڈنس",
+      "definition": "Property of an object that defines how it can be used"
+    },
+    "multimodal": {
+      "en": "Multimodal",
+      "ur": "ملٹی موڈل",
+      "definition": "Involving multiple modes of input or output (e.g., vision, language, touch)"
+    },
+    "realTime": {
+      "en": "Real-time",
+      "ur": "ریل ٹائم",
+      "definition": "System that processes data and responds within a guaranteed timeframe"
+    },
+    "latency": {
+      "en": "Latency",
+      "ur": "لیٹنسی",
+      "definition": "Time delay between a stimulus and response"
+    },
+    "bandwidth": {
+      "en": "Bandwidth",
+      "ur": "بینڈ وڈتھ",
+      "definition": "Maximum rate of data transfer across a network path"
+    },
+    "throughput": {
+      "en": "Throughput",
+      "ur": "تھروپٹ",
+      "definition": "Amount of material or items passing through a system per unit time"
+    },
+    "concurrency": {
+      "en": "Concurrency",
+      "ur": "کنکرنسی",
+      "definition": "Ability of different parts or units of a program to run simultaneously"
+    },
+    "parallelProcessing": {
+      "en": "Parallel Processing",
+      "ur": "پیرالل پروسیسنگ",
+      "definition": "Type of computation in which many calculations are carried out simultaneously"
+    }
+  }
+}
