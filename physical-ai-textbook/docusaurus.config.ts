@@ -15,15 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Samina-Ashraf-88.github.io',
+  url: 'https://hackathon-1-samina-ashraf-88.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Hackathon-1/',
+  // For Vercel deployment, use root path
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Samina-Ashraf-88', // Usually your GitHub org/user name.
-  projectName: 'Hackathon-1', // Usually your repo name.
+  // Deployment config for Vercel
+  organizationName: 'Samina-Ashraf-88', // Your GitHub org/user name.
+  projectName: 'Hackathon-1', // Your repo name.
 
   onBrokenLinks: 'throw',
 
