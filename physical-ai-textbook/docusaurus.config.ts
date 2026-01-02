@@ -17,8 +17,8 @@ const config: Config = {
   // Set the production url of your site here
   url: process.env.DEPLOYMENT_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://physical-ai-textbook.vercel.app'),
   // Set the /<baseUrl>/ pathname under which your site is served
-  // Use root path for Vercel, /ai-book/ for GitHub Pages
-  baseUrl: process.env.VERCEL_ENV ? '/' : '/ai-book/',
+  // For Vercel deployments, use root path as recommended by the error message
+  baseUrl: '/',
 
   // Deployment config for Vercel
   organizationName: 'Samina-Ashraf-88', // Your GitHub org/user name.
