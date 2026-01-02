@@ -337,4 +337,4 @@ After deciding on your lab approach:
 
 ---
 
-**Continue to [Hardware Guide Navigation Component](./)**
+**Continue to [Hardware Guide Navigation Component](./workstation.md)**

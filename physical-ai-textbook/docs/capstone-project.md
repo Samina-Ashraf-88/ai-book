@@ -324,4 +324,4 @@ Good luck with your capstone project!
 
 ---
 
-**Continue to [Hardware Requirements and Setup Guide](./hardware-guide/)**
+**Continue to [Hardware Requirements and Setup Guide](./hardware-guide/workstation.md)**

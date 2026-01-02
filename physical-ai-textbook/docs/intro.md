@@ -120,4 +120,4 @@ After completing this foundational module, you will move on to **Module 1: ROS 2
 
 ---
 
-**Continue to [Module 1: ROS 2 Fundamentals](./module-1-ros2/)**
+**Continue to [Module 1: ROS 2 Fundamentals](./module-1-ros2/intro-to-ros2.md)**
