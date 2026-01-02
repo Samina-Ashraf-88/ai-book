@@ -17,12 +17,12 @@ const config: Config = {
   // Set the production url of your site here
   url: process.env.DEPLOYMENT_URL || process.env.VERCEL_URL || 'https://physical-ai-textbook.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For Vercel deployment, use root path
-  baseUrl: '/',
+  // For GitHub Pages, use the project name
+  baseUrl: '/ai-book/',
 
   // Deployment config for Vercel
   organizationName: 'Samina-Ashraf-88', // Your GitHub org/user name.
-  projectName: 'Hackathon-1', // Your repo name.
+  projectName: 'ai-book', // Your repo name.
 
   onBrokenLinks: process.env.NODE_ENV === 'production' ? 'warn' : 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,7 +55,7 @@ const config: Config = {
             if (process.env.NODE_ENV === 'development' || process.env.VERCEL_ENV === 'development') {
               return undefined; // Disable edit URL in development
             }
-            return `https://github.com/Samina-Ashraf-88/Hackathon-1/edit/main/physical-ai-textbook${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/Samina-Ashraf-88/ai-book/edit/main/physical-ai-textbook${versionDocsDirPath}/${docPath}`;
           },
         },
         blog: {
@@ -71,7 +71,7 @@ const config: Config = {
             if (process.env.NODE_ENV === 'development' || process.env.VERCEL_ENV === 'development') {
               return undefined; // Disable edit URL in development
             }
-            return `https://github.com/Samina-Ashraf-88/Hackathon-1/edit/main/physical-ai-textbook${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/Samina-Ashraf-88/ai-book/edit/main/physical-ai-textbook${versionDocsDirPath}/${docPath}`;
           },
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
@@ -106,7 +106,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Samina-Ashraf-88/Hackathon-1',
+          href: 'https://github.com/Samina-Ashraf-88/ai-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -150,7 +150,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Samina-Ashraf-88/Hackathon-1',
+              href: 'https://github.com/Samina-Ashraf-88/ai-book',
             },
           ],
         },
