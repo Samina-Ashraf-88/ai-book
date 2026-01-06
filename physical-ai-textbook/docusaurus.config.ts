@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: process.env.DEPLOYMENT_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://physical-ai-textbook.vercel.app'),
+  url: process.env.DEPLOYMENT_URL || 'https://ai-book-dgup.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Vercel deployments, use root path as recommended by the error message
   baseUrl: '/',
